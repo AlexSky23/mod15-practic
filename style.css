@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,400;1,500&display=swap');
+
+/* font-family: 'Bitter', serif; */
+
+body {
+    background-color: lavender;
+}
+
+.greetings,
+p,
+h1, 
+h2 {
+    font-family: 'Bitter', serif;
+}
+
+.text1 {
+    font-family: 'Bitter', serif;
+    font-size: 15;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+}
+
+.about_me > h1, .footer > h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.data {
+    display: flex;
+    margin-left: 50px;
+}
+
+.full_name {
+    margin-left: 50px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    margin-bottom: 1em;
+    background-color: #EAECED;
+}
+
+.menu > a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Bitter', serif;
+    color: black;
+    text-shadow: 2px 2px #32BDD6;
+    font-size: 20;
+    font-weight: 600;
+}
+
+.my_img > img {
+    width: 200px;
+}
+
+.knowledge {
+    font-family: 'Bitter', serif;
+    font-size: 20;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.footer {
+    height: 50px;
+    background-color: lightskyblue;
+    padding: 25px;
+}
+
+input {
+    height: 30;
+    font-family: 'Bitter', serif;
+    font-size: 18;
+    font-weight: 500;
+}
